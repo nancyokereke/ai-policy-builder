@@ -1,0 +1,921 @@
+/* Document workspace */
+.results-page {
+  --slate: #5f6c81;
+  background: #f4f5f3;
+  padding: 41px 0 65px;
+  min-height: calc(100vh - 88px);
+}
+.results-intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+.results-intro h1 {
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: -1.4px;
+  line-height: 1.3;
+  margin-top: 12px;
+  outline: none;
+}
+.results-intro > div > p:last-child {
+  font-size: 13px;
+  color: var(--slate);
+  margin-top: 9px;
+  line-height: 1.8;
+}
+.ready-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 10px;
+  color: #4e6893;
+  background: #ebf0f8;
+  border: 1px solid #dee6f2;
+  border-radius: 20px;
+  padding: 8px 12px;
+}
+.results-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 17px 0;
+  border-top: 1px solid #dfe4e9;
+  border-bottom: 1px solid #dfe4e9;
+  margin-bottom: 28px;
+  position: sticky;
+  top: 88px;
+  background: #f4f5f3f7;
+  z-index: 25;
+  backdrop-filter: blur(10px);
+}
+.toolbar-primary {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.toolbar-primary .button {
+  font-size: 11px;
+  min-height: 41px;
+  padding: 10px 16px;
+  gap: 8px;
+}
+.toolbar-secondary {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+}
+.toolbar-secondary .text-button {
+  font-size: 11px;
+  gap: 6px;
+}
+.toolbar-secondary .muted {
+  color: var(--slate);
+}
+.results-layout {
+  display: grid;
+  grid-template-columns: 218px minmax(0, 1fr);
+  gap: 43px;
+  align-items: start;
+  max-width: 1135px;
+}
+.document-sidebar {
+  position: sticky;
+  top: 188px;
+  padding-top: 7px;
+}
+.document-outline h2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 9px;
+  letter-spacing: 1.3px;
+  color: #5f6c81;
+  margin-bottom: 18px;
+}
+.document-outline nav {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.document-outline nav > button {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  background: none;
+  border-left: 2px solid transparent;
+  text-align: left;
+  padding: 8px 9px;
+  font-size: 10px;
+  line-height: 1.7;
+  color: #5f6c81;
+  transition:
+    background 0.2s,
+    color 0.2s,
+    border-color 0.2s;
+  min-height: 33px;
+}
+.document-outline nav > button > span {
+  font-size: 9px;
+  color: #5f6c81;
+  min-width: 14px;
+}
+.document-outline nav > button.active {
+  color: #345687;
+  background: #eaf0f8;
+  border-left-color: #7d9ad0;
+}
+.document-outline nav > button.active > span {
+  color: #5f6c81;
+}
+.document-outline nav > button:hover {
+  color: #294c80;
+  background: #edf1f6;
+}
+.document-save-note {
+  border-top: 1px solid #dfe5eb;
+  margin: 23px 9px 0;
+  padding-top: 22px;
+}
+.document-save-note > svg {
+  color: #5f6c81;
+  margin-bottom: 10px;
+}
+.document-save-note h3 {
+  font-size: 12px;
+  line-height: 1.7;
+  font-weight: 600;
+}
+.document-save-note p {
+  font-size: 10px;
+  line-height: 1.9;
+  color: var(--slate);
+  margin-top: 8px;
+}
+.document-save-note .text-button {
+  font-size: 9px;
+  color: #4f6990;
+  margin-top: 8px;
+}
+.document-session-note {
+  display: flex;
+  align-items: flex-start;
+  gap: 7px;
+  margin: 18px 9px 0;
+  font-size: 9px;
+  line-height: 1.9;
+  color: #5f6c81;
+}
+.document-session-note svg {
+  margin-top: 2px;
+}
+.document-column {
+  min-width: 0;
+}
+.pre-document-note {
+  display: flex;
+  align-items: flex-start;
+  gap: 7px;
+  font-size: 10px;
+  line-height: 1.8;
+  color: #5f6c81;
+  margin-bottom: 14px;
+  padding-left: 2px;
+}
+.pre-document-note svg {
+  margin-top: 1px;
+  color: #5f6c81;
+}
+.policy-paper {
+  background: #fffefc;
+  border: 1px solid #e2e5e8;
+  box-shadow:
+    0 4px 15px #111d3203,
+    0 16px 40px #111d3202;
+  padding: 43px 51px 30px;
+  border-radius: 3px;
+  overflow-wrap: anywhere;
+}
+.document-brandline {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  font-size: 8px;
+  font-weight: 500;
+  letter-spacing: 1.1px;
+  color: #5f6c81;
+  border-bottom: 1px solid #e3e7ed;
+  padding-bottom: 17px;
+  margin-bottom: 29px;
+}
+.document-brandline > span:first-child {
+  color: #344965;
+  font-weight: 600;
+}
+.document-brandline > span:last-child {
+  font-size: 8px;
+  letter-spacing: 1px;
+  padding-top: 1px;
+}
+.document-title {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -1.1px;
+  color: #111d32;
+}
+.document-subtitle {
+  font-size: 12px;
+  line-height: 1.85;
+  color: #5f6c81;
+  margin-top: 13px;
+  max-width: 440px;
+}
+.policy-metadata {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 24px;
+  margin: 27px 0 0;
+  padding: 22px 0 25px;
+  border-top: 1px solid #e9ebef;
+  border-bottom: 1px solid #e9ebef;
+}
+.policy-metadata dt {
+  font-size: 8px;
+  letter-spacing: 1.1px;
+  font-weight: 500;
+  color: #5f6c81;
+  margin-bottom: 7px;
+}
+.policy-metadata dd {
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.7;
+  margin: 0;
+  color: #40536e;
+}
+.metadata-review {
+  grid-column: 1/-1;
+}
+.policy-sections {
+  padding-top: 8px;
+}
+.policy-section {
+  padding-top: 31px;
+  scroll-margin-top: 184px;
+}
+.policy-section-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+.policy-section-heading > span {
+  font-size: 10px;
+  color: #5f6c81;
+  letter-spacing: 0.3px;
+  font-family: var(--display);
+  min-width: 17px;
+}
+.policy-section-heading h3 {
+  font-size: 17px;
+  line-height: 1.55;
+  font-weight: 600;
+  letter-spacing: -0.35px;
+  color: #23354f;
+}
+.policy-paragraph {
+  position: relative;
+}
+.policy-paragraph p {
+  font-size: 14px;
+  line-height: 1.95;
+  color: #5a6779;
+  margin: 0 0 13px;
+  white-space: pre-wrap;
+}
+.policy-placeholder {
+  background: #edf2fc;
+  color: #516f9f;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-size: 0.9em;
+  font-weight: 500;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  line-height: 2;
+}
+.policy-disclaimer {
+  border-top: 1px solid #e5e9ef;
+  margin-top: 34px;
+  padding-top: 24px;
+}
+.policy-disclaimer h3 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #586b87;
+  margin-bottom: 10px;
+}
+.policy-disclaimer p {
+  font-size: 10px;
+  line-height: 1.95;
+  color: #5f6c81;
+}
+.document-endmark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+  color: #5f6c81;
+  margin-top: 32px;
+}
+.document-endmark > span {
+  width: 34px;
+  height: 1px;
+  background: #e0e5ed;
+}
+.document-attribution {
+  text-align: center;
+  font-size: 8px;
+  color: #5f6c81;
+  line-height: 1.8;
+  margin-top: 13px;
+}
+.document-bottom-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 21px;
+}
+.document-bottom-actions > span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: #5f6c81;
+}
+.document-bottom-actions .button {
+  font-size: 11px;
+  min-height: 42px;
+}
+.editing-notice {
+  display: none;
+}
+.editing-notice.visible {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  background: #ebf1fd;
+  border: 1px solid #d9e4f8;
+  border-radius: 5px;
+  padding: 12px 15px;
+  font-size: 11px;
+  line-height: 1.8;
+  color: #4c6c9f;
+  margin-top: -9px;
+  margin-bottom: 22px;
+}
+.document-textarea {
+  display: block;
+  width: 100%;
+  border: 1px solid #e1e7f0;
+  background: #f9fbff;
+  border-radius: 4px;
+  color: #4b5d78;
+  font-size: 14px;
+  line-height: 1.95;
+  padding: 10px 12px;
+  resize: none;
+  overflow: hidden;
+  transition:
+    border-color 0.2s,
+    background 0.2s;
+  min-height: 45px;
+}
+.document-textarea:hover {
+  border-color: #b7c9e5;
+}
+.document-textarea:focus {
+  background: #fff;
+  border-color: #85a1d4;
+  outline: 3px solid #547ef51a;
+  outline-offset: 1px;
+}
+.policy-paper.is-editing {
+  border-color: #b8cae6;
+  box-shadow: 0 0 0 3px #e7eef9;
+}
+.is-editing .policy-paragraph {
+  margin-bottom: 11px;
+  padding-right: 24px;
+}
+.document-title-input {
+  font-family: var(--display);
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: -0.8px;
+  color: #111d32;
+  padding: 10px 12px;
+}
+.section-title-input {
+  font-family: var(--display);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.7;
+  color: #23354f;
+  letter-spacing: -0.2px;
+  padding: 6px 10px;
+}
+.policy-section-heading > .document-textarea {
+  flex: 1;
+  min-width: 0;
+}
+.remove-paragraph {
+  position: absolute;
+  right: -3px;
+  top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 29px;
+  background: transparent;
+  color: #5f6c81;
+  border-radius: 4px;
+}
+.remove-paragraph:hover {
+  background: #f8ecec;
+  color: #5f6c81;
+}
+.add-paragraph {
+  font-size: 9 !important;
+  color: #5f6c81;
+  margin-left: 28px;
+  margin-top: 0;
+  min-height: 30px !important;
+}
+.policy-disclaimer .document-textarea {
+  font-size: 11px;
+  color: #5f6c81;
+}
+@media (min-width: 1400px) {
+  .policy-paper {
+    padding: 48px 59px 34px;
+  }
+  .policy-paragraph p {
+    font-size: 13px;
+    line-height: 1.95;
+  }
+  .policy-section-heading h3 {
+    font-size: 18px;
+  }
+  .document-title {
+    font-size: 35px;
+  }
+  .document-subtitle {
+    font-size: 13px;
+  }
+  .policy-metadata dd {
+    font-size: 12px;
+  }
+  .policy-metadata dt {
+    font-size: 8px;
+  }
+  .document-textarea {
+    font-size: 13px;
+  }
+  .document-title-input {
+    font-size: 30px;
+  }
+  .section-title-input {
+    font-size: 17px;
+  }
+  .document-outline nav > button {
+    font-size: 11px;
+  }
+  .policy-disclaimer p {
+    font-size: 11px;
+  }
+}
+@media (max-width: 1100px) {
+  .results-layout {
+    grid-template-columns: 185px minmax(0, 1fr);
+    gap: 29px;
+  }
+  .policy-paper {
+    padding: 35px 35px 27px;
+  }
+  .toolbar-primary .button {
+    font-size: 10px;
+    padding: 10px 13px;
+    gap: 7px;
+  }
+  .toolbar-secondary {
+    gap: 17px;
+  }
+  .toolbar-secondary .text-button {
+    font-size: 10px;
+  }
+  .document-title {
+    font-size: 29px;
+  }
+  .document-outline nav > button {
+    font-size: 9px;
+    padding: 7px;
+    gap: 7px;
+  }
+  .results-intro h1 {
+    font-size: 33px;
+  }
+  .policy-section-heading h3 {
+    font-size: 16px;
+  }
+  .policy-paragraph p {
+    font-size: 12px;
+  }
+  .document-brandline {
+    font-size: 8px;
+  }
+  .results-toolbar {
+    gap: 12px;
+  }
+  .document-save-note p {
+    font-size: 10px;
+  }
+  .policy-section {
+    scroll-margin-top: 181px;
+  }
+}
+@media (max-width: 850px) {
+  .results-layout {
+    grid-template-columns: 155px minmax(0, 1fr);
+    gap: 22px;
+  }
+  .policy-paper {
+    padding: 30px 27px 25px;
+  }
+  .document-outline nav > button {
+    font-size: 9px;
+    line-height: 1.7;
+    gap: 6px;
+    padding: 7px 5px;
+  }
+  .document-outline nav > button > span {
+    font-size: 8px;
+    min-width: 12px;
+  }
+  .document-outline h2 {
+    font-size: 8px;
+    gap: 6px;
+    letter-spacing: 1px;
+  }
+  .document-title {
+    font-size: 26px;
+  }
+  .document-subtitle {
+    font-size: 11px;
+  }
+  .policy-section-heading {
+    gap: 9px;
+  }
+  .policy-section-heading h3 {
+    font-size: 15px;
+  }
+  .policy-section-heading > span {
+    font-size: 9px;
+    min-width: 14px;
+  }
+  .policy-paragraph p {
+    font-size: 11px;
+  }
+  .document-brandline > span:last-child {
+    font-size: 7px;
+  }
+  .toolbar-primary {
+    gap: 7px;
+  }
+  .toolbar-primary .button {
+    font-size: 10px;
+    padding: 9px 11px;
+    gap: 6px;
+  }
+  .toolbar-primary .button svg {
+    width: 14px;
+  }
+  .toolbar-secondary {
+    gap: 11px;
+  }
+  .toolbar-secondary .text-button {
+    font-size: 9px;
+    gap: 5px;
+  }
+  .toolbar-secondary .text-button svg {
+    width: 12px;
+  }
+  .ready-badge {
+    font-size: 9px;
+    padding: 7px 10px;
+  }
+  .document-save-note {
+    margin-inline: 5px;
+  }
+  .document-save-note h3 {
+    font-size: 11px;
+  }
+  .document-save-note p {
+    font-size: 9px;
+  }
+  .document-session-note {
+    font-size: 8px;
+    margin-inline: 5px;
+  }
+  .pre-document-note {
+    font-size: 9px;
+  }
+  .document-textarea {
+    font-size: 11px;
+  }
+  .document-title-input {
+    font-size: 25px;
+  }
+  .section-title-input {
+    font-size: 14px;
+  }
+  .policy-metadata {
+    gap: 18px;
+  }
+  .policy-metadata dd {
+    font-size: 10px;
+  }
+  .policy-metadata dt {
+    font-size: 8px;
+  }
+  .policy-disclaimer p {
+    font-size: 9px;
+  }
+  .document-attribution {
+    font-size: 8px;
+  }
+}
+@media (max-width: 680px) {
+  .results-page {
+    padding: 27px 0 40px;
+  }
+  .results-intro {
+    display: block;
+    margin-bottom: 23px;
+  }
+  .results-intro .eyebrow {
+    font-size: 8px;
+  }
+  .results-intro h1 {
+    font-size: 31px;
+    letter-spacing: -1.2px;
+    margin-top: 12px;
+  }
+  .results-intro > div > p:last-child {
+    font-size: 12px;
+    margin-top: 9px;
+  }
+  .ready-badge {
+    font-size: 9px;
+    margin-top: 16px;
+    padding: 7px 10px;
+  }
+  .ready-badge svg {
+    width: 14px;
+  }
+  .results-toolbar {
+    position: sticky;
+    top: 73px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 7px;
+    padding: 12px 0 7px;
+    margin-bottom: 20px;
+  }
+  .toolbar-primary {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.15fr;
+    gap: 7px;
+  }
+  .toolbar-primary .button {
+    font-size: 10px;
+    padding: 10px 7px;
+    gap: 6px;
+    min-height: 42px;
+  }
+  .toolbar-primary .button svg {
+    width: 13px;
+    height: 13px;
+  }
+  .toolbar-secondary {
+    justify-content: space-between;
+    gap: 15px;
+  }
+  .toolbar-secondary .text-button {
+    font-size: 10px;
+    min-height: 34px;
+  }
+  .toolbar-secondary .text-button svg {
+    width: 12px;
+  }
+  .results-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  .document-sidebar {
+    position: static;
+    padding: 0;
+    width: 100%;
+  }
+  .document-outline {
+    display: none;
+  }
+  .document-save-note,
+  .document-session-note {
+    display: none;
+  }
+  .pre-document-note {
+    font-size: 9px;
+    line-height: 1.8;
+    margin-bottom: 12px;
+    gap: 7px;
+  }
+  .pre-document-note svg {
+    width: 14px;
+  }
+  .document-column {
+    width: 100%;
+  }
+  .policy-paper {
+    padding: 26px 23px 25px;
+    border-radius: 3px;
+  }
+  .document-brandline {
+    font-size: 8px;
+    letter-spacing: 0.8px;
+    padding-bottom: 15px;
+    margin-bottom: 24px;
+  }
+  .document-brandline > span:last-child {
+    font-size: 7px;
+    letter-spacing: 0.8px;
+  }
+  .document-title {
+    font-size: 28px;
+    line-height: 1.35;
+    letter-spacing: -0.9px;
+  }
+  .document-subtitle {
+    font-size: 11px;
+    line-height: 1.9;
+    margin-top: 12px;
+  }
+  .policy-metadata {
+    margin-top: 23px;
+    padding: 20px 0 21px;
+    gap: 19px 16px;
+  }
+  .policy-metadata dt {
+    font-size: 8px;
+    letter-spacing: 0.9px;
+    margin-bottom: 6px;
+  }
+  .policy-metadata dd {
+    font-size: 11px;
+    line-height: 1.7;
+  }
+  .policy-section {
+    padding-top: 27px;
+    scroll-margin-top: 193px;
+  }
+  .policy-section-heading {
+    gap: 9px;
+    margin-bottom: 13px;
+  }
+  .policy-section-heading > span {
+    font-size: 9px;
+    min-width: 14px;
+  }
+  .policy-section-heading h3 {
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: -0.3px;
+  }
+  .policy-paragraph p {
+    font-size: 14px;
+    line-height: 1.95;
+    margin-bottom: 13px;
+  }
+  .policy-placeholder {
+    font-size: 0.88em;
+    padding: 2px 3px;
+  }
+  .policy-disclaimer {
+    margin-top: 27px;
+    padding-top: 22px;
+  }
+  .policy-disclaimer h3 {
+    font-size: 12px;
+  }
+  .policy-disclaimer p {
+    font-size: 10px;
+    line-height: 1.9;
+  }
+  .document-attribution {
+    font-size: 8px;
+    line-height: 1.9;
+  }
+  .document-bottom-actions > span {
+    font-size: 9px;
+    gap: 4px;
+  }
+  .document-bottom-actions .button {
+    font-size: 11px;
+    padding: 10px 13px;
+    min-height: 42px;
+  }
+  .document-bottom-actions > span svg {
+    width: 13px;
+  }
+  .editing-notice.visible {
+    font-size: 10px;
+    line-height: 1.8;
+    padding: 11px 12px;
+    margin-bottom: 17px;
+    margin-top: -4px;
+    align-items: flex-start;
+  }
+  .editing-notice svg {
+    width: 14px;
+    margin-top: 2px;
+  }
+  .document-textarea {
+    font-size: 13px;
+    line-height: 1.9;
+    padding: 9px 10px;
+  }
+  .document-title-input {
+    font-size: 25px;
+    line-height: 1.4;
+  }
+  .section-title-input {
+    font-size: 15px;
+    line-height: 1.65;
+    padding: 7px 8px;
+  }
+  .is-editing .policy-paragraph {
+    padding-right: 20px;
+  }
+  .remove-paragraph {
+    right: -5px;
+    width: 24px;
+  }
+  .add-paragraph {
+    margin-left: 23px;
+  }
+  .policy-disclaimer .document-textarea {
+    font-size: 12px;
+  }
+}
+@media (max-width: 370px) {
+  .policy-paper {
+    padding-inline: 18px;
+  }
+  .toolbar-primary .button {
+    font-size: 9px;
+    padding-inline: 5px;
+    gap: 5px;
+  }
+  .toolbar-primary .button svg {
+    width: 12px;
+  }
+  .document-title {
+    font-size: 25px;
+  }
+  .policy-section-heading h3 {
+    font-size: 15px;
+  }
+  .document-brandline {
+    font-size: 7px;
+  }
+  .document-brandline > span:last-child {
+    font-size: 4.5px;
+  }
+  .document-bottom-actions > span {
+    font-size: 8px;
+  }
+  .policy-paragraph p {
+    font-size: 10.5px;
+  }
+}

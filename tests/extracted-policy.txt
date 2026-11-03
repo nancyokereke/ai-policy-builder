@@ -1,0 +1,232 @@
+AI POLICY BUILDER WORKPLACE POLICY
+Northstar Edited AI Policy
+A customised starting point for establishing responsible AI practices in your business.
+BUSINESS
+Northstar Studio
+INDUSTRY
+Technology
+COUNTRY
+Nigeria
+EFFECTIVE DATE
+2 November 2026
+Policy review: Every 6 months
+1. Our Purpose and Scope
+EDITED_POLICY_SENTINEL: This complete edited paragraph must be exported.
+This policy applies to AI use for business purposes, including use on personal accounts, personal
+devices, external supplier platforms and AI features embedded in other software. A tool being free,
+familiar or widely available does not make it approved.
+It applies to all employees and to contractors, temporary workers and other representatives who use AI
+for the business. Managers must ensure that people working under their supervision receive the policy
+and understand the requirements relevant to their role. Existing confidentiality, security, employment
+and professional obligations continue to apply.
+“AI tools” means services and features that generate, transform, analyse or recommend content or
+actions using artificial intelligence. “Approved” means explicitly authorised by the business for a stated
+purpose and account arrangement, not merely technically accessible. “High-impact” work includes work
+that could materially affect a person’s opportunities, rights, finances, health, safety or treatment, or the
+business’s legal or operational position.
+ADDED_PARAGRAPH_SENTINEL: A new local rule.
+2. Approved AI Tools and Authorisation
+The business reported current use of the following AI tools: ChatGPT. Being listed here records
+reported use, not automatic approval. Before relying on this policy, the business must confirm and
+document which tools and account plans are authorised, for which purposes, and for which employees.
+[APPROVED TOOL LIST AND ACCOUNT PLANS TO BE CONFIRMED]
+Authorisation of new AI tools is the responsibility of management. Employees must obtain approval
+before using a new AI tool or materially expanding an existing tool’s purpose, data access or system
+Created using AI Policy Builder by Nancy Okereke. Page 1 of 7
+access. Requests should explain the business need, intended users, information involved, supplier,
+account type, costs and relevant risks. Approval must be recorded and communicated; silence does not
+mean permission.
+The business should maintain a simple register of authorised tools, permitted purposes, account
+arrangements, approval decisions and restrictions. [TOOL REGISTER LOCATION TO BE CONFIRMED]
+Approval of a tool does not override the data, document-upload, human-review or system-connection
+restrictions in this policy. Employees must follow any narrower restrictions communicated for a
+particular tool.
+3. Acceptable Use of AI
+The reported areas of AI use are: Writing and content creation; Human resources and recruitment;
+Customer support. AI may support work only within these authorised purposes and the employee’s
+normal responsibilities. Any materially different use must be considered through the tool-authorisation
+process. AI output is assistance, not a substitute for professional judgement or accountability.
+For customer support, employees must verify AI-suggested responses against current, reliable business
+information before sending them. Customer personal information must not be entered into unapproved
+tools. Customers must be given a route to a human for complex queries, complaints, distress, disputed
+outcomes or requests outside the tool’s scope; the business must confirm that route. AI must not make
+unauthorised commitments, guarantees, refunds or eligibility decisions. [CUSTOMER ESCALATION
+ROUTE TO BE CONFIRMED]
+4. Prohibited Use of AI
+Employees must not use AI to deceive, harass, discriminate, exploit, impersonate or unlawfully monitor
+people; generate unlawful material; infringe privacy or intellectual-property rights; or bypass legal,
+contractual, security or professional obligations. AI must not be used to create misleading evidence,
+false records, fabricated sources or unauthorised representations of the business.
+Do not use unapproved tools for business information, share credentials with a model, circumvent
+access controls, install unauthorised AI extensions or grant access to company information without the
+authorisation required by this policy. Do not submit restricted information in an attempt to test
+whether a tool will protect it.
+Employees must not represent AI-generated content as independently verified fact, use AI to make the
+high-impact decisions reserved for humans in this policy, or deploy autonomous actions outside the
+approved purpose. Where a requested use is unclear or conflicts with this policy, pause and seek
+guidance before proceeding.
+Created using AI Policy Builder by Nancy Okereke. Page 2 of 7
+Northstar Edited AI Policy AI USAGE POLICY
+5. Data Protection and Confidential Information
+Employees must not enter the following into unapproved AI tools, including prompts, attachments,
+training settings or connected applications: Customer personal information; Passwords and login
+credentials. When an AI tool’s approval status is unclear, treat it as unapproved and ask management
+before sharing information.
+Use the minimum information necessary. Remove or replace identifying and confidential details where
+the task allows, and prefer anonymised or synthetic examples. Removing a name alone does not
+necessarily make information anonymous. Approval to use an AI tool is not blanket permission to
+disclose every category of business information.
+Passwords, login credentials, secret keys, authentication codes and recovery codes must never be
+pasted into an AI prompt or exposed through an AI integration. Personal, customer, regulated and
+confidential information remains subject to applicable confidentiality, privacy and contractual
+obligations even when an AI tool is approved.
+Before uploading company documents to any AI tool, employees must obtain prior management
+approval for the proposed upload or a clearly defined class of uploads. The approval must identify the
+documents, tool and account plan, purpose and any handling restrictions, and must be recorded.
+Approval of a tool alone is not approval to upload documents. [DOCUMENT UPLOAD APPROVAL
+RECORD LOCATION TO BE CONFIRMED]
+Permitted uploads remain subject to the restrictions above. Before uploading, employees must check
+relevant supplier terms, retention, deletion and model-training settings where available, and must not
+assume that an approved supplier provides protections that have not been verified.
+This policy applies to operations in Nigeria and the technology context described by the business. The
+business must identify the local laws, contracts and sector-specific obligations relevant to its actual
+activities. This draft does not certify compliance with any particular legal regime.
+Connections to company systems, applications or databases require a documented security review
+before activation and explicit authorisation by management. The review must be performed by a
+person with appropriate security competence; if that expertise is not available internally, the business
+must obtain it before proceeding. [SECURITY REVIEW OWNER AND EVIDENCE LOCATION TO BE
+CONFIRMED]
+Connections must use the least access necessary, with read-only access preferred where sufficient. The
+reviewer or approver must consider authentication, supplier handling of information, data flows,
+logging, deletion, error handling and a way to revoke access. Secrets must not be embedded in prompts
+or shared directly with an AI model. Access must be removed when no longer needed.
+Any material expansion of permissions, new write access, new data sources or autonomous actions
+requires renewed approval and review. Employees must report unexpected actions or access promptly.
+Approval of a connection does not permit employees to bypass other policy restrictions.
+Created using AI Policy Builder by Nancy Okereke. Page 3 of 7
+Northstar Edited AI Policy AI USAGE POLICY
+6. Human Oversight and Accuracy
+All AI-generated work must be reviewed by a human before use, whether it is used internally or shared
+externally. This includes text, code, analysis, images, summaries, recommendations and automated
+actions. The reviewing employee is responsible for checking factual accuracy, completeness, relevance,
+bias, confidentiality, rights and fitness for the intended purpose. A person must understand the output
+sufficiently to take responsibility for its use and must correct or reject unsupported content.
+The following activities always require human oversight: Recruitment and hiring decisions; Public
+communications. A suitably informed person must review the relevant AI contribution and remain
+accountable for the final decision or action. AI must not be the sole decision-maker for these activities.
+For recruitment and hiring, a trained human must make or substantively validate screening, shortlisting,
+interview, selection and rejection decisions. AI scores and recommendations are advisory only.
+Reviewers must check evidence, use job-related criteria, consider relevant bias and accessibility risks,
+and provide an appropriate route to request human reconsideration. Do not infer protected
+characteristics or upload candidate information to unapproved tools. Record the human decision and its
+rationale in accordance with applicable requirements.
+Public communications and important business reports must be checked by an authorised reviewer for
+factual support, appropriate tone, confidentiality and material omissions before release. Significant
+claims, figures, quotations and recommendations must be traced to reliable sources.
+7. AI-Generated Content and Disclosure
+Employees must disclose AI-generated or substantially AI-assisted content in external communications,
+including customer, client, supplier and public-facing content. Disclosure should be clear and
+appropriate to the medium. This rule does not remove any additional disclosure obligation imposed by
+applicable rules or contracts.
+Employees must check permissions, attribution and licensing before using generated content and must
+not assume AI output is free of third-party rights or automatically protected by copyright. Do not
+present fabricated quotations, sources, testimonials or evidence as genuine. Remove or correct
+inaccurate content promptly and retain source material where required by normal business
+record-keeping rules.
+8. Account Security and Access Control
+The business reported use of personal accounts. A personal account is not automatically approved for
+business use. The business must confirm which personal accounts, tools and plans may be used and for
+what purposes. Unless a particular personal account and use have been explicitly approved with
+appropriate protections, treat it as unapproved and do not enter restricted business information,
+upload company documents or connect it to company systems.
+For any explicitly approved personal-account use, employees must maintain a strong, unique password,
+enable multi-factor authentication where available, keep recovery details private and prevent
+Created using AI Policy Builder by Nancy Okereke. Page 4 of 7
+Northstar Edited AI Policy AI USAGE POLICY
+household members or other third parties from accessing business work. Do not synchronise company
+information into personal storage or use personal paid subscriptions for business without approval. The
+business must confirm how access and retained business information will be handled when an
+employee changes role or leaves.
+Use strong, unique passwords and enable multi-factor authentication where the service supports it.
+Never share passwords, authentication codes or individual login sessions. Use only access granted for
+your role, do not bypass business restrictions, and sign out on shared devices. Report suspected
+account compromise through the incident route in this policy.
+The designated approval or account owner must remove or adjust access when it is no longer needed,
+including when an employee leaves or changes role. Supplier settings for history, retention and training
+must be checked rather than assumed. [ACCOUNT OWNER AND OFFBOARDING STEPS TO BE
+CONFIRMED]
+9. Incident Reporting
+No formal AI-related incident reporting process was reported. Recommendation: before adopting this
+policy, establish a clear reporting route, a responsible owner and a fallback for urgent incidents. Until
+that route is formally confirmed, this draft proposes immediate reporting to management as an interim
+measure; it does not claim that a formal process already exists. [REPORTING OWNER, CONTACT
+METHOD AND FALLBACK TO BE CONFIRMED]
+Report accidental disclosure of sensitive information, suspected account compromise, suspicious
+AI-related activity, unsafe integrations and material errors as soon as they are noticed. Do not wait for
+complete evidence or delay because you are unsure whether an incident qualifies. If the normal route is
+unavailable, use the confirmed fallback or escalate to management.
+Stop the affected activity where it is safe to do so, prevent further disclosure and preserve relevant
+evidence such as time, tool, prompts, outputs and screenshots without circulating sensitive material
+more widely. Do not delete evidence, investigate beyond your authority or attempt to conceal the
+incident. Cooperate with the designated response owner.
+The responsible business owner must assess the incident, arrange containment and recovery, and
+determine whether any customer, regulator, insurer, supplier or other notification is required under
+applicable obligations. Employees must not make external notifications or public statements about an
+incident unless authorised, except where applicable law gives them an independent right or duty to
+report.
+10. Employee Responsibilities
+Employees are responsible for understanding this policy, using only authorised tools and access
+arrangements, protecting information, checking outputs, meeting disclosure requirements and
+reporting concerns. The person using or approving AI-assisted work remains responsible for its quality
+and consequences; responsibility cannot be assigned to the AI tool.
+Created using AI Policy Builder by Nancy Okereke. Page 5 of 7
+Northstar Edited AI Policy AI USAGE POLICY
+Employees must follow the restrictions on document uploads, system connections and human review
+set out in this policy. Ask management when approval status or a rule is unclear. Do not treat a lack of
+response, another team’s use of a tool or a supplier’s marketing claim as permission.
+Managers must communicate relevant restrictions, support employees in raising concerns and ensure
+that workloads and deadlines allow required checks. The business must confirm who owns the tool
+register, access decisions, training and policy maintenance. [POLICY OWNER AND OPERATIONAL
+RESPONSIBILITIES TO BE CONFIRMED]
+Non-compliance may be addressed through the business’s applicable internal procedures, consistent
+with employment obligations and applicable law. The policy does not restrict legally protected
+reporting or other rights that cannot lawfully be limited. Questions raised in good faith and reports of
+suspected incidents should be treated constructively.
+11. AI Training and Awareness
+Employees must complete responsible AI training before using AI tools for business purposes and
+participate in periodic refresher training thereafter. Initial training must cover the approved
+environment and essential safeguards; refreshers must address changes in tools, risks, incidents and
+responsibilities. [TRAINING OWNER, REFRESHER FREQUENCY AND COMPLETION RECORD TO BE
+CONFIRMED]
+Training and awareness activities should use practical, role-relevant examples and explain how to pause
+work and seek help. Employees must not treat completion of training as permission to ignore
+tool-specific restrictions or professional review requirements.
+12. Policy Review and Updates
+This policy must be reviewed every 6 months. The business must also review it when significant
+changes in tools, risks, incidents, operations or applicable obligations make an earlier review necessary.
+The review should consider whether approved tools and account plans remain appropriate, whether
+controls and restrictions are workable, what incidents or employee feedback have revealed, and
+whether oversight, training and reporting arrangements need updating. The business should check
+relevant obligations in its country and industry rather than assuming this draft is legally complete.
+Material updates must be approved through the business’s appropriate internal process, dated and
+communicated to affected employees. The business should maintain a version history and confirm
+whether renewed acknowledgement or training is needed. [POLICY REVIEW OWNER AND VERSION
+HISTORY LOCATION TO BE CONFIRMED]
+Created using AI Policy Builder by Nancy Okereke. Page 6 of 7
+Northstar Edited AI Policy AI USAGE POLICY
+13. Employee Acknowledgement
+I confirm that I have received and read this AI Usage Policy, understand that I am responsible for
+following it, and know how to ask questions or raise a concern. I understand that AI output must be
+handled in accordance with the policy’s review, information-protection and disclosure requirements.
+Employee name: ________________________________________
+Role / department: ______________________________________
+Signature: ______________________________________________
+Date: ___________________________________________________
+Acknowledgement records should be handled under the business’s normal employment-record and
+privacy arrangements. This generator does not collect or store acknowledgement information.
+Important notice
+The AI Policy Builder generates a practical starting point for workplace AI usage guidelines. It does not constitute legal
+advice, cybersecurity certification or a guarantee of compliance with applicable laws and regulations. Businesses should
+review and adapt the generated policy to their operations, industry and legal obligations before adopting it.
+Created using AI Policy Builder by Nancy Okereke. Page 7 of 7
+Northstar Edited AI Policy AI USAGE POLICY
